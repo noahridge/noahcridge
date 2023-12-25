@@ -1,0 +1,38 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'vncnt-hugo'
+
+[permalinks]
+  fixed = ":title/"
+  posts = "posts/:slug/"
+
+[params]
+  author = "Noah Ridge"
+  # email does still work but is deprecated.
+  # use [params.contact.email] instead.
+  #email = "john.doe@example.com"
+  description = "Landing Page"
+  bio = """Biomedical Engineer  \n\n I work at **Boston Scientific** in new product development. I create technology with a purpose.
+\n\nI have expertise in data science, systems engineering, ultrasound physics, and more. 
+\n\nI have a passion to bring modern tools of data science and machine learning to the development of medical technology.
+\n\nAs a technical leader, I have brought therapeutic ultrasound technology from concept to market release. 
+\n\nAs an individual contributor, I have designed Fourier transform-based electrical tests for piezo material characterization and created novel algorithms to transform log data into critical therapy design insights.  
+
+ """
+  
+  avatar = "img/noah.jpeg"
+  favicon = "img/favicon.ico"
+  error404 = "There is no such page."
+
+  [params.contact]
+    # the default fontawesome style in simple key-value pairs is "fab", i.e. brand icons
+    linkedin = "https://www.linkedin.com/in/noah-ridge/"
+    # instagram = ""
+    # twitter = ""
+
+    [params.contact.email]
+      name = "email" # may be omitted. defaults to key name
+      icon = "envelope" # may be omitted. defaults to key name
+      style = "fas" # may be omitted. default = "fas"
+      link = "mailto:hello@noahcridge.com"

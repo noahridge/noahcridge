@@ -13,11 +13,10 @@ theme = 'vncnt-hugo'
   # use [params.contact.email] instead.
   #email = "john.doe@example.com"
   description = "Landing Page"
-  bio = """Biomedical Engineer  \n\n I work at **Boston Scientific** in new product development. I create technology with a purpose.
+  bio = """**Biomedical Engineer**  \n\n I work at **Boston Scientific** in new product development. I create technology with a purpose.
 \n\nI have expertise in data science, systems engineering, ultrasound physics, and more. 
 \n\nI have a passion to bring modern tools of data science and machine learning to the development of medical technology.
 \n\nAs a technical leader, I have brought therapeutic ultrasound technology from concept to market release. 
-\n\nAs an individual contributor, I have designed Fourier transform-based electrical tests for piezo material characterization and created novel algorithms to transform log data into critical therapy design insights.  
 
  """
   

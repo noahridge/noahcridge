@@ -1,18 +1,23 @@
 # absURL = '/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Noah Ridge - Biomedical Engineer'
 theme = 'vncnt-hugo'
+author = 'Noah Ridge'
+description = "Noah Ridge is a Biomedical Engineer and Data Scientist with a track record of bringing novel medical solutions to market"
 
 [permalinks]
   fixed = ":title/"
   posts = "posts/:slug/"
 
 [params]
+  _merge = 'shallow'
   author = "Noah Ridge"
   # email does still work but is deprecated.
   # use [params.contact.email] instead.
   #email = "john.doe@example.com"
-  description = "Landing Page"
+  # description = "Landing Page"
+  description = "Noah Ridge is a Biomedical Engineer and Data Scientist with a track record of bringing novel medical solutions to market"
+
   bio = """**Biomedical Engineer**  \n\n I work at **Boston Scientific** in new product development. I create technology with a purpose.
 \n\nI have expertise in data science, systems engineering, ultrasound physics, and more. 
 \n\nI have a passion to bring modern tools of data science and machine learning to the development of medical technology.

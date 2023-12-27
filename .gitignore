@@ -3,3 +3,5 @@
 
 # public folder
 public/*
+
+*.DS_Store

@@ -4,6 +4,7 @@ title = 'Noah Ridge - Biomedical Engineer'
 theme = 'vncnt-hugo'
 author = 'Noah Ridge'
 description = "Noah Ridge is a Biomedical Engineer and Data Scientist with a track record of bringing novel medical solutions to market"
+enableRobotsTXT = true
 
 [permalinks]
   fixed = ":title/"
